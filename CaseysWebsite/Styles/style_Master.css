@@ -1,0 +1,62 @@
+﻿body {
+    color: white;
+    font-family: 'Century Gothic';
+    background-color: black;
+}
+
+#frame {
+    width: 80%;
+    min-width: 900px;
+    margin: auto;
+    border: solid 2px white;
+}
+
+.frame_cell {
+    border: none;
+}
+
+.auto-style2 {
+    width: auto;
+}
+
+.banner {
+    height: 130px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.banner > p {
+    width: auto;
+    font-size: xx-large;
+}
+
+.navbar {
+    width: 30%;
+    min-width: 200px;
+    height: auto;
+    min-height: 250px;
+    vertical-align: top;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: white solid 2px;
+}
+
+.contentplaceholder {
+    vertical-align: top;
+    border: white solid 2px;
+}
+
+    .navbar > p {
+        font-size: large;
+    }
+
+#navbar_table {
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.image {
+    float: left;
+}

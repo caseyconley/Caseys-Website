@@ -1,0 +1,15 @@
+﻿.post {
+    border: white dashed 2px;
+    background-color: black;
+    color: white;
+    margin: 16px;
+    font-family: Arial;
+}
+
+.blogTitle {
+    font-size: large;
+}
+
+.blogBody {
+    font-size: medium;
+}

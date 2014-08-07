@@ -1,0 +1,5 @@
+H:\CaseysWebsite1\CaseysWebsite1\bin\CaseysWebsite1.dll.config
+H:\CaseysWebsite1\CaseysWebsite1\bin\CaseysWebsite1.dll
+H:\CaseysWebsite1\CaseysWebsite1\bin\CaseysWebsite1.pdb
+H:\CaseysWebsite1\CaseysWebsite1\obj\Debug\CaseysWebsite1.dll
+H:\CaseysWebsite1\CaseysWebsite1\obj\Debug\CaseysWebsite1.pdb

@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CaseysWebsite.master.cs" Inherits="CaseysWebsite1.CaseysWebsite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles/style_Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="navbar">
+            <table id="frame">
+                <tr>
+                    <td colspan="2" class="banner">
+                        <asp:Image ID="imgBannerFace" runat="server" CssClass="image" ImageUrl="~/Images/casey_small.png" />
+                        <p>
+                            Casey's Super Pro Website
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="navbar">
+                        <table id="navbar_table">
+                            <tr>
+                                <td class="frame_cell">
+                                    <p>
+                                        Home
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="frame_cell">
+                                    <p>
+                                        Blog
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="frame_cell">
+                                    <p>
+                                        Contact
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="frame_cell">
+                                    <p>
+                                        Other
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="contentplaceholder">
+                        <asp:ContentPlaceHolder ID="MasterBody" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="banner">&copy;Copyright Casey Conley 2014</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
