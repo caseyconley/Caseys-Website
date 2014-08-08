@@ -28,6 +28,7 @@
                                 <td class="frame_cell">
                                     <p>
                                         Home
+                                        <asp:LinkButton ID="btnHome" runat="server" OnClick="btnNavHome_Click">LinkButton</asp:LinkButton>
                                     </p>
                                 </td>
                             </tr>
@@ -35,6 +36,7 @@
                                 <td class="frame_cell">
                                     <p>
                                         Blog
+                                        <asp:LinkButton ID="btnNavBlog" runat="server" OnClick="btnNavBlog_Click">LinkButton</asp:LinkButton>
                                     </p>
                                 </td>
                             </tr>
@@ -42,6 +44,7 @@
                                 <td class="frame_cell">
                                     <p>
                                         Contact
+                                        <asp:LinkButton ID="btnNavContact" runat="server" OnClick="btnNavContact_Click">LinkButton</asp:LinkButton>
                                     </p>
                                 </td>
                             </tr>
@@ -49,6 +52,7 @@
                                 <td class="frame_cell">
                                     <p>
                                         Other
+                                        <asp:LinkButton ID="btnNavOther" runat="server" OnClick="btnNavOther_Click">LinkButton</asp:LinkButton>
                                     </p>
                                 </td>
                             </tr>

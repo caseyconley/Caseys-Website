@@ -13,5 +13,27 @@ namespace CaseysWebsite1
         {
 
         }
+
+        protected void btnNavHome_Click(object sender, EventArgs e)
+        {
+            ContentPlaceHolder masterBody = (ContentPlaceHolder)FindControl("MasterBody");
+            if (masterBody != null)
+            {
+                masterBody.ID = "Default";
+            }
+            
+        }
+        protected void btnNavBlog_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void btnNavContact_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void btnNavOther_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

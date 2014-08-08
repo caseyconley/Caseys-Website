@@ -40,6 +40,42 @@ namespace CaseysWebsite1 {
         protected global::System.Web.UI.WebControls.Image imgBannerFace;
         
         /// <summary>
+        /// btnHome control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnHome;
+        
+        /// <summary>
+        /// btnNavBlog control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnNavBlog;
+        
+        /// <summary>
+        /// btnNavContact control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnNavContact;
+        
+        /// <summary>
+        /// btnNavOther control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnNavOther;
+        
+        /// <summary>
         /// MasterBody control.
         /// </summary>
         /// <remarks>
